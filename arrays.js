@@ -31,3 +31,7 @@ function removeElementFromEndOfArray (arr) {
   console.log("Input: "+ arr + " sliced="+arr.slice(0,arr.length-1))
   return arr.slice(0,arr.length-1);
 }
+
+function addElementToEndOfArray (arr, element) {
+  return [...arr, element];
+}
