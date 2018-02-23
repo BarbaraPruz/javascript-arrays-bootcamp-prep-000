@@ -23,6 +23,7 @@ function removeElementFromBeginningOfArray (arr) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(arr) {
+  console.log()
   arr.pop;
   return arr;
 }
